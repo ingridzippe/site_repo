@@ -17,7 +17,7 @@ h1 {
 	padding-top: 14px;
 	width: 400px;
 	padding-bottom: 16px;
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	font-size: 100px;
 	color: #2a1c19;
 }
@@ -43,7 +43,7 @@ body {
 
 h2 {
 	width: 350px;
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
 	color: white;
 }
@@ -54,7 +54,7 @@ h4 {
 	text-align: center;
 	color: grey;
 	font-size: 70px;
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 }
 
 #menu {
@@ -78,9 +78,9 @@ h4 {
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin-left: auto; 
+	margin-left: auto;
     margin-right: auto;
-    margin-top: 20%; 
+    margin-top: 20%;
 	height: 300px;
 	width: 870px;
 /*	border: 1px solid blue; */
@@ -100,7 +100,7 @@ h4 {
 	color: transparent;
 	text-decoration: none;
 	background: url("photos/photos/ense_logo.png") no-repeat;
-	background-size: 136px 103px; 
+	background-size: 136px 103px;
 	background-position: 50% 50%;
 }
 a { text-decoration: none; }
@@ -138,14 +138,22 @@ a { text-decoration: none; }
 
 
 #topic-title {
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	font-size: 58px;
 	color: #2a1c19;
 	padding-top: 18px;
 	padding-bottom: 43px;
 }
+#bio-topic-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 58px;
+	color: #2a1c19;
+	padding-top: 18px;
+	padding-bottom: 0px;
+	text-align: center;
+}
 #tech-heading {
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	font-size: 40px;
 	color: #2a1c19;
 	padding-top: 18px;
@@ -154,6 +162,7 @@ a { text-decoration: none; }
 }
 p {
 	font-size: 18px;
+    margin-top: 5px
 }
 #git {
 	font-size: 40px;
@@ -163,8 +172,22 @@ p {
 	padding-bottom: 30px;
 }
 
-
-
+#bio-paragraph {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	margin: 90px;
+    margin-top: 50px;
+}
+#tech-paragraph {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	margin: 90px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+#la {
+    font-size: 24px;
+}
 
 .photos-container {
 	display: inline-block;
@@ -189,8 +212,13 @@ p {
 	height: 315px;
 	width: 33%;
 	float:left;
-    clear:none; 
+    clear:none;
 	display: inline-block;
+}
+#photo-weallwant {
+	background: url("photos/photos/weallwant_5.jpg");
+	background-size: cover;
+	background-position: 30% 24%;
 }
 #photo-rainforest {
 	background: url("photos/photos/rainforest.png");
@@ -323,7 +351,7 @@ p {
 .paint-container {text-align: center;}
 .paint-photos {width: 920px; margin-left: auto; margin-right: auto;}
 .paint-pic {
-	float: left; 
+	float: left;
 	width: 430px;
 	margin: 12px;
 }
@@ -365,7 +393,7 @@ p {
 	height: 230px;
 	margin-bottom: 30px;
 	text-align: center;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 	border-style: solid;
 	border-color: blue;
@@ -373,8 +401,8 @@ p {
 #bio-photo {
 	height: 200px;
 	display: inline-block;
-	text-align: left; 
-	float: left; 
+	text-align: left;
+	float: left;
 	width: 39%;
 	border-style: solid;
 	border-color: green;
@@ -382,7 +410,7 @@ p {
 #bio-description {
 	height: 200px;
 	display: inline-block;
-	text-align: left; 
+	text-align: left;
 	float: left;
 	width: 39%;
 	border-style: solid;
@@ -393,7 +421,7 @@ p {
 #timeline-plus {
 	width: 75%;
 	text-align: center;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 	border-style: solid;
 	border-color: blue;
@@ -402,7 +430,7 @@ p {
 .timeline {
 	display: inline-block;
 	text-align: left;
-	float: left; 
+	float: left;
 	width: 58%;
 	border-style: solid;
 	border-color: blue;
@@ -410,11 +438,9 @@ p {
 
 .other {
 	display: inline-block;
-	text-align: left; 
+	text-align: left;
 	float: left;
 	width: 39%;
 	border-style: solid;
 	border-color: blue;
 }
-
-
