@@ -108,6 +108,6 @@ app.get('/hitmewithurlove', function(req, res) {
 
 
 
-app.listen(80, function() {
-  console.log('Okay i changed this to be the heroku thing.');
-});
+var port = process.env.PORT || 3000;
+app.listen(port);
+console.log('Express started. Listening on port %s', port);
